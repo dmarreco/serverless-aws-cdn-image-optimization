@@ -1,0 +1,31 @@
+{
+    "name": "shared-infra-resources",
+    "version": "0.1.0",
+    "description": "An AWS CDK project for shared infrastructure resources.",
+    "main": "src/shared-infra-resources.js",
+    "engines": {
+        "node": ">=18",
+        "npm": ">=10"
+    },
+    "scripts": {
+        "build": "npx esbuild ./src/**/*.ts --platform=node --outdir=dist --format=esm",
+        "cdk": "npx cdk",
+        "synth": "npx cdk synth",
+        "deploy": "npx cdk deploy",
+        "destroy": "npx cdk destroy"
+    },
+    "dependencies": {
+        "@aws-cdk/aws-cognito-identitypool-alpha": "^2.164.1-alpha.0",
+        "aws-cdk-lib": "^2.160.0",
+        "constructs": "^10.4.2",
+        "source-map-support": "^0.5.21"
+    },
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "esbuild": "^0.24.0",
+        "ts-node": "^10.0.0",
+        "typescript": "^5.0.0"
+    },
+    "author": "",
+    "license": "MIT"
+}

@@ -1,0 +1,8 @@
+# Ignore node_modules folder
+node_modules
+# Ignore CDK outputs
+cdk.out
+# Ignore compiled TypeScript files
+*.js
+*.d.ts
+dist/

@@ -1,0 +1,8 @@
+{
+    "app": "npx ts-node --prefer-ts-exts src/shared-infra-resources",
+    "context": {
+      "@aws-cdk/core:newStyleStackSynthesis": true
+      
+    }
+ }
+  
